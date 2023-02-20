@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .titulo{
+    color: white;
+    margin-left: 45%;
+    padding-top: 20px;
+} 
+.logoTenis{
+    margin-top: -40px;
+    display: flex;
+    padding-left: 1000px;
+    padding-top: 28px;
+
+} 

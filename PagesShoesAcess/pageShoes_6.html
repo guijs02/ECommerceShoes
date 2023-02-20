@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/PagesShoesAcess/StylePageShoes.css">
+
+
+<body>
+    <nav>
+       
+           <h1 class="titulo">TSHOES</h1> 
+           <a href="/index.html">
+               <img src="/fotoLogo_preview_rev_1.png" alt="fotoTenis"  class="logoTenis">
+           </a>
+    
+    </nav>
+    <section class="row-1">
+        <div class="informacoes-modelo">
+            <section>
+                <h1 class="ModeloTenis">Tenis Nike Air Jordan</h1>
+                <hr>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                <div class="descricao">
+
+                    <h3>Indicado para: todos que querem andar estilosos pela rua</h2>
+                    <h3>Marca: Nike</h2>
+                        <h3>Garantia do fabricante: 2 anos de garantia</h3> 
+                        <h3>Origem: Nacional</h3>    
+                        <h3>Altura do Cano: Cano Alto</h3>
+                </div>
+                <div class="formPay">
+                    <button id="btnform-pay" onclick="openModal()"><img src="/credit-card.png" id="credit-card" alt="">Forma de Pagamento</button>
+                </div>
+          
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times</span>
+                            <!-- <label>Nome</label> -->
+                       <form action="" class="formulario">
+                        <div class="PAI"> 
+                           <div class="card-logos">
+                            <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+                            <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+                            
+    
+                                <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+                           
+                     </div>
+                        </div>
+                            <div class="row">
+                                <div class="divName">
+                                    <label for="">Nome</label>
+                                    <input type="text" name="Nome" class="inputModal">
+    
+                                </div>
+                                <div class="divCartao">
+    
+                                    <label for="">Numero do cartão</label>
+                                    <input type="text" name="numCartao" class="inputModal">
+                                </div>
+                            </div>
+                            <div class="row-2">
+    
+                                <div class="divValidade">
+                                    
+                                    <label for="">Data de Validade</label>
+                                    <input type="date" name="validade" size="30" class="inputModal">
+                                </div>
+                                <div class="divCvv">
+                                    <label for="">CVV</label>
+                                    <input type="date" name="cvv" size="30" class="inputModal">
+                                    
+                                </div>
+                                <div>
+                                    <button id="confirma">Confirmar</button>
+    
+                                </div>
+                            </div>
+                        </div>  
+                           
+                    </form>
+                    
+                        </div>
+                      
+                    </div>
+                </div>
+        </div>
+        <div class="cards">
+            <img src="/assets/ct0978-060_4.jpg" class="image">
+        </div>
+        <div class="informacoes">
+
+            <h1 class="">Nike Air Jordan</h1>
+            <p class="">Vendido e entregue por TShoes</p>
+            <hr>
+        </div>
+        <div class="container-preco">
+            <br><br>
+            <p class="preco">por <span>R$289,99</span></p>
+            <p class="parcela">ou 10x de R$29,00 sem juros</p>
+        </div>
+        <div class="">
+        <h3 class="tamanho">TAMANHO</h2>
+
+            <select id="dropdown">
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+
+            </select>
+        </div>
+        <div class="">
+            <button id="botao" onclick="ClickButton()" value="COMPRAR">COMPRAR</button>
+        </div>
+            
+    </section>
+</body>
+<script src="/PagesShoesAcess/script.js"></script>
+</html>

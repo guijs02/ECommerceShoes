@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    height: 25rem;
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin-left: 40%;
+    margin-top: 13%;
+
+  }
+  input {
+    border-radius: 8px;
+    height: 30px;
+    outline: none;
+  }
+  .cont {
+    margin-left: 140px;
+    padding-top: 50px;
+  }
+  h1{
+      margin-left: 45px;
+      margin-top: 5px;
+  }
+  .sig{
+      width: 170px;
+      height: 3rem;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 200;
+      background-color: rgb(255, 152, 8);
+      color: white;
+
+      border-color: rgb(255, 152, 8);
+  }
+  .sig:hover{
+      background-color: rgb(249, 153, 57);
+  }
